@@ -1,0 +1,6 @@
+2023-10-16 22:46:56.847 [main] INFO  pages.sliderDemoPage - Initial loc: (759, 331)
+2023-10-16 22:46:56.877 [main] INFO  pages.sliderDemoPage - Initial value: 20
+2023-10-16 22:46:57.330 [main] INFO  pages.sliderDemoPage - Updated value: 40
+2023-10-16 22:46:57.347 [main] INFO  pages.sliderDemoPage - Updated loc: (759, 331)
+2023-10-16 22:46:57.353 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-16 22:46:57.353 [main] INFO  basePackage.basePage - __________________________________________________________________________________
