@@ -8,6 +8,7 @@
       <class name="testCases.testSliderDemoPage"/>
       <class name="testCases.testDropDownSearchDemoPage"/>
       <class name="testCases.testCheckboxPage"/>
+      <class name="testCases.testDragAndDrop"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+2023-10-19 12:22:05.723 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:05.738 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:08.667 [main] INFO  testCases.testSliderDemoPage - ----- Verifying the funcationality of testSlider -----
+2023-10-19 12:22:12.693 [main] INFO  pages.sliderDemoPage - Initial loc: (759, 331)
+2023-10-19 12:22:12.724 [main] INFO  pages.sliderDemoPage - Initial value: 20
+2023-10-19 12:22:13.195 [main] INFO  pages.sliderDemoPage - Updated value: 40
+2023-10-19 12:22:13.197 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:13.197 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:17.207 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:17.207 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:20.946 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:20.946 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:24.888 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:24.889 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:27.340 [main] INFO  testCases.testCheckboxPage - ----- Verifying the funcationality of DisableCheckBoxDemo -----
+2023-10-19 12:22:28.738 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:28.738 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:31.330 [main] INFO  testCases.testCheckboxPage - ----- Verifying the funcationality of MutlipleCheckBox -----
+2023-10-19 12:22:32.853 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:32.853 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:35.269 [main] INFO  testCases.testCheckboxPage - ----- Verifying the funcationality of SingleCheckBoxDemo -----
+2023-10-19 12:22:36.296 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:36.296 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:40.486 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:40.486 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2023-10-19 12:22:44.271 [main] INFO  basePackage.basePage - Test case got passed
+2023-10-19 12:22:44.272 [main] INFO  basePackage.basePage - __________________________________________________________________________________
