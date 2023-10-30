@@ -1,281 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-19T12:21:36 IST" name="Suite" finished-at="2023-10-19T12:22:44 IST" duration-ms="68093">
+  <suite started-at="2023-10-28T21:07:54 IST" name="Default suite" finished-at="2023-10-28T21:08:08 IST" duration-ms="13831">
     <groups>
     </groups>
-    <test started-at="2023-10-19T12:21:36 IST" name="Test" finished-at="2023-10-19T12:22:44 IST" duration-ms="68093">
-      <class name="testCases.testCheckboxPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:25 IST" name="setUp" finished-at="2023-10-19T12:22:27 IST" duration-ms="2024" status="PASS">
+    <test started-at="2023-10-28T21:07:54 IST" name="Default test" finished-at="2023-10-28T21:08:08 IST" duration-ms="13831">
+      <class name="testCases.testDynamicDataLoading">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDynamicDataLoading@47a64f7d]" started-at="2023-10-28T21:07:54 IST" name="setUp" finished-at="2023-10-28T21:08:03 IST" duration-ms="8877" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.testCheckboxPage.DisableCheckBoxDemo()]]>
+                <![CDATA[public void testCases.testDynamicDataLoading.DataIsLoaded()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DisableCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:27 IST" name="DisableCheckBoxDemo" finished-at="2023-10-19T12:22:28 IST" duration-ms="1398" status="PASS">
+        <test-method signature="DataIsLoaded()[pri:0, instance:testCases.testDynamicDataLoading@47a64f7d]" started-at="2023-10-28T21:08:03 IST" name="DataIsLoaded" finished-at="2023-10-28T21:08:07 IST" duration-ms="4058" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DisableCheckBoxDemo -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:28 IST" name="testStatus" finished-at="2023-10-19T12:22:29 IST" duration-ms="442" status="PASS">
+        </test-method> <!-- DataIsLoaded -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDynamicDataLoading@47a64f7d]" started-at="2023-10-28T21:08:07 IST" name="testStatus" finished-at="2023-10-28T21:08:08 IST" duration-ms="718" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DisableCheckBoxDemo status=SUCCESS method=testCheckboxPage.DisableCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@533377b] output={null}]]]>
+                <![CDATA[[TestResult name=DataIsLoaded status=SUCCESS method=testDynamicDataLoading.DataIsLoaded()[pri:0, instance:testCases.testDynamicDataLoading@47a64f7d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:29 IST" name="setUp" finished-at="2023-10-19T12:22:31 IST" duration-ms="2146" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testCheckboxPage.MutlipleCheckBox()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="MutlipleCheckBox()[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:31 IST" name="MutlipleCheckBox" finished-at="2023-10-19T12:22:32 IST" duration-ms="1524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MutlipleCheckBox -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:32 IST" name="testStatus" finished-at="2023-10-19T12:22:33 IST" duration-ms="394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MutlipleCheckBox status=SUCCESS method=testCheckboxPage.MutlipleCheckBox()[pri:0, instance:testCases.testCheckboxPage@533377b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:33 IST" name="setUp" finished-at="2023-10-19T12:22:35 IST" duration-ms="2020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testCheckboxPage.SingleCheckBoxDemo()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="SingleCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:35 IST" name="SingleCheckBoxDemo" finished-at="2023-10-19T12:22:36 IST" duration-ms="1027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SingleCheckBoxDemo -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@533377b]" started-at="2023-10-19T12:22:36 IST" name="testStatus" finished-at="2023-10-19T12:22:36 IST" duration-ms="372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SingleCheckBoxDemo status=SUCCESS method=testCheckboxPage.SingleCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@533377b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-      </class> <!-- testCases.testCheckboxPage -->
-      <class name="testCases.testHandelWindowsPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testHandelWindowsPage@65aa6596]" started-at="2023-10-19T12:21:36 IST" name="setUp" finished-at="2023-10-19T12:21:40 IST" duration-ms="3369" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testHandelWindowsPage.handelTwitterPage() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="handelTwitterPage()[pri:0, instance:testCases.testHandelWindowsPage@65aa6596]" started-at="2023-10-19T12:21:40 IST" name="handelTwitterPage" finished-at="2023-10-19T12:22:05 IST" duration-ms="25598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handelTwitterPage -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testHandelWindowsPage@65aa6596]" started-at="2023-10-19T12:22:05 IST" name="testStatus" finished-at="2023-10-19T12:22:06 IST" duration-ms="1193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=handelTwitterPage status=SUCCESS method=testHandelWindowsPage.handelTwitterPage()[pri:0, instance:testCases.testHandelWindowsPage@65aa6596] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-      </class> <!-- testCases.testHandelWindowsPage -->
-      <class name="testCases.testDropDownSearchDemoPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:13 IST" name="setUp" finished-at="2023-10-19T12:22:15 IST" duration-ms="2105" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testDropDownSearchDemoPage.SelectCountry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="SelectCountry()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:15 IST" name="SelectCountry" finished-at="2023-10-19T12:22:17 IST" duration-ms="1498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectCountry -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:17 IST" name="testStatus" finished-at="2023-10-19T12:22:17 IST" duration-ms="473" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectCountry status=SUCCESS method=testDropDownSearchDemoPage.SelectCountry()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:17 IST" name="setUp" finished-at="2023-10-19T12:22:19 IST" duration-ms="2098" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testDropDownSearchDemoPage.SelectFile()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="SelectFile()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:19 IST" name="SelectFile" finished-at="2023-10-19T12:22:20 IST" duration-ms="1166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectFile -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:20 IST" name="testStatus" finished-at="2023-10-19T12:22:21 IST" duration-ms="425" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectFile status=SUCCESS method=testDropDownSearchDemoPage.SelectFile()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:21 IST" name="setUp" finished-at="2023-10-19T12:22:23 IST" duration-ms="2050" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testDropDownSearchDemoPage.SelectState()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="SelectState()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:23 IST" name="SelectState" finished-at="2023-10-19T12:22:24 IST" duration-ms="1459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectState -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6]" started-at="2023-10-19T12:22:24 IST" name="testStatus" finished-at="2023-10-19T12:22:25 IST" duration-ms="427" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectState status=SUCCESS method=testDropDownSearchDemoPage.SelectState()[pri:0, instance:testCases.testDropDownSearchDemoPage@419a20a6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-      </class> <!-- testCases.testDropDownSearchDemoPage -->
-      <class name="testCases.testDragAndDrop">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:36 IST" name="setUp" finished-at="2023-10-19T12:22:38 IST" duration-ms="1938" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testDragAndDrop.dragAndDropDemo1()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="dragAndDropDemo1()[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:38 IST" name="dragAndDropDemo1" finished-at="2023-10-19T12:22:40 IST" duration-ms="1876" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragAndDropDemo1 -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:40 IST" name="testStatus" finished-at="2023-10-19T12:22:41 IST" duration-ms="548" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dragAndDropDemo1 status=SUCCESS method=testDragAndDrop.dragAndDropDemo1()[pri:0, instance:testCases.testDragAndDrop@3383649e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:41 IST" name="setUp" finished-at="2023-10-19T12:22:43 IST" duration-ms="2114" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testDragAndDrop.dragAndDropDemo2()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="dragAndDropDemo2()[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:43 IST" name="dragAndDropDemo2" finished-at="2023-10-19T12:22:44 IST" duration-ms="1121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragAndDropDemo2 -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testDragAndDrop@3383649e]" started-at="2023-10-19T12:22:44 IST" name="testStatus" finished-at="2023-10-19T12:22:44 IST" duration-ms="504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dragAndDropDemo2 status=SUCCESS method=testDragAndDrop.dragAndDropDemo2()[pri:0, instance:testCases.testDragAndDrop@3383649e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-      </class> <!-- testCases.testDragAndDrop -->
-      <class name="testCases.testSliderDemoPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testSliderDemoPage@67389cb8]" started-at="2023-10-19T12:22:06 IST" name="setUp" finished-at="2023-10-19T12:22:08 IST" duration-ms="1738" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.testSliderDemoPage.testSlider()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSlider()[pri:0, instance:testCases.testSliderDemoPage@67389cb8]" started-at="2023-10-19T12:22:08 IST" name="testSlider" finished-at="2023-10-19T12:22:13 IST" duration-ms="4564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSlider -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testSliderDemoPage@67389cb8]" started-at="2023-10-19T12:22:13 IST" name="testStatus" finished-at="2023-10-19T12:22:13 IST" duration-ms="407" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSlider status=SUCCESS method=testSliderDemoPage.testSlider()[pri:0, instance:testCases.testSliderDemoPage@67389cb8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStatus -->
-      </class> <!-- testCases.testSliderDemoPage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.testDynamicDataLoading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

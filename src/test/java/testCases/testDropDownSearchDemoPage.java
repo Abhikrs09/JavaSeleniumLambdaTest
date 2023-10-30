@@ -20,12 +20,19 @@ public class testDropDownSearchDemoPage  extends basePage{
 	@Test
 	public void SelectFile() {
 		
+		logger.info("----- Verifying the SelectFile test -----");
+		
 		String files = ReadingPropertiesFile.getProperty("files");
+		
 		lambdaHomePage lhp = new lambdaHomePage(driver);
 		dropDownSearchDemoPage dds = new dropDownSearchDemoPage(driver);
+		
 		lhp.clickbtnDropDown();
+		
+		logger.info("----- Verifying DropDown titile has been displayed or not  -----");
 		Assert.assertTrue(dds.isDisplayeddropDownTitle());
 		elementsUtils.scrollDown(driver, 500);
+		logger.info("----- Select the file  -----");
 		dds.selectFromddSelectFile(files);
 		
 		
@@ -34,14 +41,19 @@ public class testDropDownSearchDemoPage  extends basePage{
 	@Test
 	public void SelectCountry() {
 		
-		
-		lambdaHomePage lhp = new lambdaHomePage(driver);
-		dropDownSearchDemoPage dds = new dropDownSearchDemoPage(driver);
-		String country = ReadingPropertiesFile.getProperty("country");
-		lhp.clickbtnDropDown();
-		dds.clickddSelectCountry();
-		dds.selectCountryByName(country);
-		Assert.assertEquals(country, dds.getCountry());
+		logger.info("----- Verifying the SelectCountry test -----");
+
+        lambdaHomePage lhp = new lambdaHomePage(driver);
+        dropDownSearchDemoPage dds = new dropDownSearchDemoPage(driver);
+        
+        logger.info("----- Reading country from properties file -----");
+        String country = ReadingPropertiesFile.getProperty("country");
+        lhp.clickbtnDropDown();
+        dds.clickddSelectCountry();
+        dds.selectCountryByName(country);
+        logger.info("----- Verifying the input and output country is matching or not -----");
+        Assert.assertEquals(country, dds.getCountry());
+    
 	
 		}
 	
@@ -49,8 +61,11 @@ public class testDropDownSearchDemoPage  extends basePage{
 	@Test
 	public void SelectState() {
 		
+		logger.info("----- Verifying the SelectState test -----");
+		
 		lambdaHomePage lhp = new lambdaHomePage(driver);
 		dropDownSearchDemoPage dds = new dropDownSearchDemoPage(driver);
+		
 		lhp.clickbtnDropDown();
 		dds.clickddSelectState();
 		dds.selectStateByName("Alaska");
@@ -61,30 +76,7 @@ public class testDropDownSearchDemoPage  extends basePage{
 	}
 	
 	
-//	@Test 
-//	public void test1() {
-//		
-//		lambdaHomePage lhp = new lambdaHomePage(driver);
-//		dropDownSearchDemoPage dds = new dropDownSearchDemoPage(driver);
-//		lhp.clickbtnDropDown();
-//		WebElement dropdown = driver.findElement(By.xpath("//input[@placeholder='Select state(s)']"));
-//
-//        // Initialize a Select object
-//        Select select = new Select(dropdown);
-//
-//        // Hold down the Control key (Ctrl) to select multiple options
-//        // Select "New York"
-//        select.selectByVisibleText("New York");
-//
-//        // Hold down the Control key (Ctrl) to select multiple options
-//        // Select "Ohio"
-//        select.selectByVisibleText("Ohio");
-//
-//        // Perform any necessary actions with the selected options
-//        // For example, you can print the selected options
-//                                     
 
-	//}
 	
 
 }

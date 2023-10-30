@@ -18,7 +18,7 @@ public class testSliderDemoPage extends basePage {
 	    lambdaHomePage lhp = new lambdaHomePage(driver);
 	    sliderDemoPage sdp = new sliderDemoPage(driver);
 	    
-	    logger.info("----- Verifying the funcationality of testSlider -----");
+	    logger.info("----- Verifying the functionality of testSlider -----");
 		
 	    lhp.clickbtnDragAndDropSlider();
 	    Assert.assertTrue(sdp.isSlider1Displayed());

@@ -1,7 +1,7 @@
 package basePackage;
 
 import java.lang.reflect.Method;
-import java.util.concurrent.TimeUnit;
+
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -59,7 +59,7 @@ public class basePage {
         }
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(ReadingPropertiesFile.getProperty("url"));
         extent_report = ExtentManager.getInstance("Reports//Extent_demo.html");
         extent_test = extent_report.startTest(method.getName());

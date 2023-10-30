@@ -9,6 +9,7 @@
       <class name="testCases.testDropDownSearchDemoPage"/>
       <class name="testCases.testCheckboxPage"/>
       <class name="testCases.testDragAndDrop"/>
+      <class name="testCases.testDynamicDataLoading"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

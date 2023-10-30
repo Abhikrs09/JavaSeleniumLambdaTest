@@ -47,6 +47,20 @@ public class lambdaHomePage {
 	@FindBy (xpath = "//a[contains(text(),'JQuery Select dropdown')]")
 	private WebElement btnDropDown;
 	
+	@FindBy(xpath ="//a[contains(text(),'Bootstrap Date Picker')]")
+	private WebElement btnDatePicker;
+	
+	@FindBy (xpath = "//a[contains(text(),'Dynamic Data Loading')]")
+	private WebElement btnDynamicDataLoading;
+	
+	public void clickbtnDynamicDataLoading() {
+		elemUtils.clickOnElement(btnDynamicDataLoading, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+	
+	public void cilckbtnDatePicker() {
+		elemUtils.clickOnElement(btnDatePicker, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+	
 	public  void clickbtnWindowsHandel() {
 		elemUtils.clickOnElement(btnWindowsHandel, CommonData.EXPLICIT_WAIT_BASIC_TIME);
 	}

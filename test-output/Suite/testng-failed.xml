@@ -3,20 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.testElementsTextBox">
+      <class name="testCases.testHandelWindowsPage">
         <methods>
           <include name="testStatus"/>
-          <include name="homepageImage_isDisplayed"/>
+          <include name="handelTwitterPage"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.testElementsTextBox -->
-      <class name="testCases.Homepage_Test">
-        <methods>
-          <include name="testStatus"/>
-          <include name="homepageImage_isDisplayed"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.Homepage_Test -->
+      </class> <!-- testCases.testHandelWindowsPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
