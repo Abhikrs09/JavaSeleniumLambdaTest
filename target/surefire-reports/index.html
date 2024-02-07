@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Kumar\eclipse-workspace\demoQA_java_sel\testng.xml</span>
+                    <span>C:\Users\abhik\OneDrive\Desktop\New folder\testing\selenium\java_selenium_lambdaTest\JavaSeleniumLambdaTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,6 +105,11 @@
                         <a href="#" panel-name="suite-Suite" title="testCases.testHandelWindowsPage" class="method navigator-link" hash-for-method="handelTwitterPage">handelTwitterPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.testDatePickerPage" class="method navigator-link" hash-for-method="printCurrentdate">printCurrentdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -114,6 +119,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.testDynamicDataLoading" class="method navigator-link" hash-for-method="DataIsLoaded">DataIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.testCheckboxPage" class="method navigator-link" hash-for-method="DisableCheckBoxDemo">DisableCheckBoxDemo</a> <!-- method navigator-link -->
@@ -182,32 +192,54 @@
                   <a name="handelTwitterPage">
                   </a> <!-- handelTwitterPage -->
                   <span class="method-name">handelTwitterPage</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: no such execution context
-  (Session info: chrome=118.0.5993.117)
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c30db2430387cb2224aba5602f2374a, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65192/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c30db2430387cb2224aba5602f2374a
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
-	at testCases.testHandelWindowsPage.handelTwitterPage(testHandelWindowsPage.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
+                  <div class="stack-trace">java.lang.NullPointerException
+	at utilities.elementsUtils.typeTextIntoElement(elementsUtils.java:44)
+	at pages.twitterPage.settextUsername(twitterPage.java:42)
+	at testCases.testHandelWindowsPage.handelTwitterPage(testHandelWindowsPage.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.testDatePickerPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printCurrentdate">
+                  </a> <!-- printCurrentdate -->
+                  <span class="method-name">printCurrentdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at utilities.elementsUtils.getTextFromElement(elementsUtils.java:38)
+	at pages.datePickerPage.printCurrentMonthYear(datePickerPage.java:58)
+	at testCases.testDatePickerPage.printCurrentdate(testDatePickerPage.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.testDynamicDataLoading</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataIsLoaded">
+                  </a> <!-- DataIsLoaded -->
+                  <span class="method-name">DataIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -233,28 +265,6 @@ Session ID: 8c30db2430387cb2224aba5602f2374a
                   <a name="SingleCheckBoxDemo">
                   </a> <!-- SingleCheckBoxDemo -->
                   <span class="method-name">SingleCheckBoxDemo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.testDragAndDrop</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dragAndDropDemo1">
-                  </a> <!-- dragAndDropDemo1 -->
-                  <span class="method-name">dragAndDropDemo1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="dragAndDropDemo2">
-                  </a> <!-- dragAndDropDemo2 -->
-                  <span class="method-name">dragAndDropDemo2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,10 +313,32 @@ Session ID: 8c30db2430387cb2224aba5602f2374a
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.testDragAndDrop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropDemo1">
+                  </a> <!-- dragAndDropDemo1 -->
+                  <span class="method-name">dragAndDropDemo1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropDemo2">
+                  </a> <!-- dragAndDropDemo2 -->
+                  <span class="method-name">dragAndDropDemo2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Kumar\eclipse-workspace\demoQA_java_sel\testng.xml</span>
+            <span class="header-content">C:\Users\abhik\OneDrive\Desktop\New folder\testing\selenium\java_selenium_lambdaTest\JavaSeleniumLambdaTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -315,12 +347,14 @@ Session ID: 8c30db2430387cb2224aba5602f2374a
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.testDragAndDrop&quot;/&gt;
       &lt;class name=&quot;basePackage.basePage&quot;/&gt;
       &lt;class name=&quot;testCases.testHandelWindowsPage&quot;/&gt;
+      &lt;class name=&quot;testCases.testDatePickerPage&quot;/&gt;
+      &lt;class name=&quot;testCases.testDynamicDataLoading&quot;/&gt;
       &lt;class name=&quot;testCases.testSliderDemoPage&quot;/&gt;
       &lt;class name=&quot;testCases.testDropDownSearchDemoPage&quot;/&gt;
       &lt;class name=&quot;testCases.testCheckboxPage&quot;/&gt;
-      &lt;class name=&quot;testCases.testDragAndDrop&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -334,7 +368,7 @@ Session ID: 8c30db2430387cb2224aba5602f2374a
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (6 classes)</span>
+                <span class="test-name">Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -360,52 +394,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dragAndDropDemo1')
-data.setCell(0, 2, 'testCases.testDragAndDrop')
-data.setCell(0, 3, 2387);
+data.setCell(0, 1, 'handelTwitterPage')
+data.setCell(0, 2, 'testCases.testHandelWindowsPage')
+data.setCell(0, 3, 35506);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'DisableCheckBoxDemo')
-data.setCell(1, 2, 'testCases.testCheckboxPage')
-data.setCell(1, 3, 2080);
+data.setCell(1, 1, 'printCurrentdate')
+data.setCell(1, 2, 'testCases.testDatePickerPage')
+data.setCell(1, 3, 32775);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SelectCountry')
-data.setCell(2, 2, 'testCases.testDropDownSearchDemoPage')
-data.setCell(2, 3, 1780);
+data.setCell(2, 1, 'DataIsLoaded')
+data.setCell(2, 2, 'testCases.testDynamicDataLoading')
+data.setCell(2, 3, 6485);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'handelTwitterPage')
-data.setCell(3, 2, 'testCases.testHandelWindowsPage')
-data.setCell(3, 3, 1732);
+data.setCell(3, 1, 'dragAndDropDemo2')
+data.setCell(3, 2, 'testCases.testDragAndDrop')
+data.setCell(3, 3, 3856);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SelectState')
-data.setCell(4, 2, 'testCases.testDropDownSearchDemoPage')
-data.setCell(4, 3, 1683);
+data.setCell(4, 1, 'dragAndDropDemo1')
+data.setCell(4, 2, 'testCases.testDragAndDrop')
+data.setCell(4, 3, 3794);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'MutlipleCheckBox')
-data.setCell(5, 2, 'testCases.testCheckboxPage')
-data.setCell(5, 3, 1562);
+data.setCell(5, 1, 'testSlider')
+data.setCell(5, 2, 'testCases.testSliderDemoPage')
+data.setCell(5, 3, 3165);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'SelectFile')
 data.setCell(6, 2, 'testCases.testDropDownSearchDemoPage')
-data.setCell(6, 3, 1262);
+data.setCell(6, 3, 2961);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'SingleCheckBoxDemo')
-data.setCell(7, 2, 'testCases.testCheckboxPage')
-data.setCell(7, 3, 1207);
+data.setCell(7, 1, 'SelectCountry')
+data.setCell(7, 2, 'testCases.testDropDownSearchDemoPage')
+data.setCell(7, 3, 2938);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testSlider')
-data.setCell(8, 2, 'testCases.testSliderDemoPage')
-data.setCell(8, 3, 1197);
+data.setCell(8, 1, 'SelectState')
+data.setCell(8, 2, 'testCases.testDropDownSearchDemoPage')
+data.setCell(8, 3, 2792);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'dragAndDropDemo2')
-data.setCell(9, 2, 'testCases.testDragAndDrop')
-data.setCell(9, 3, 1033);
+data.setCell(9, 1, 'DisableCheckBoxDemo')
+data.setCell(9, 2, 'testCases.testCheckboxPage')
+data.setCell(9, 3, 1548);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'MutlipleCheckBox')
+data.setCell(10, 2, 'testCases.testCheckboxPage')
+data.setCell(10, 3, 897);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SingleCheckBoxDemo')
+data.setCell(11, 2, 'testCases.testCheckboxPage')
+data.setCell(11, 3, 626);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -431,140 +473,172 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">testCases.testDragAndDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void testCases.testDragAndDrop.dragAndDropDemo1())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dragAndDropDemo1</span>
+                <span class="method-start">12780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testStatus([TestResult name=dragAndDropDemo1 status=SUCCESS method=testDragAndDrop.dragAndDropDemo1()[pri:0, in...)</span>
+                <span class="method-start">16591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void testCases.testDragAndDrop.dragAndDropDemo2())</span>
+                <span class="method-start">17116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dragAndDropDemo2</span>
+                <span class="method-start">22117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testStatus([TestResult name=dragAndDropDemo2 status=SUCCESS method=testDragAndDrop.dragAndDropDemo2()[pri:0, in...)</span>
+                <span class="method-start">25976 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testCases.testHandelWindowsPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testHandelWindowsPage.handelTwitterPage() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">26155 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">handelTwitterPage</span>
-                <span class="method-start">7200 ms</span>
+                <span class="method-start">31630 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=handelTwitterPage status=FAILURE method=testHandelWindowsPage.handelTwitterPage()[p...)</span>
-                <span class="method-start">9074 ms</span>
+                <span class="method-start">67148 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.testDatePickerPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void testCases.testDatePickerPage.printCurrentdate())</span>
+                <span class="method-start">67613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printCurrentdate</span>
+                <span class="method-start">70148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testStatus([TestResult name=printCurrentdate status=FAILURE method=testDatePickerPage.printCurrentdate()[pri:0,...)</span>
+                <span class="method-start">102931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.testDynamicDataLoading</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void testCases.testDynamicDataLoading.DataIsLoaded())</span>
+                <span class="method-start">103157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DataIsLoaded</span>
+                <span class="method-start">104914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testStatus([TestResult name=DataIsLoaded status=SUCCESS method=testDynamicDataLoading.DataIsLoaded()[pri:0, ins...)</span>
+                <span class="method-start">111402 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.testSliderDemoPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testSliderDemoPage.testSlider())</span>
-                <span class="method-start">13463 ms</span>
+                <span class="method-start">111583 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSlider</span>
-                <span class="method-start">15911 ms</span>
+                <span class="method-start">114976 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=testSlider status=SUCCESS method=testSliderDemoPage.testSlider()[pri:0, instance:te...)</span>
-                <span class="method-start">17111 ms</span>
+                <span class="method-start">118143 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.testDropDownSearchDemoPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testDropDownSearchDemoPage.SelectCountry())</span>
-                <span class="method-start">17626 ms</span>
+                <span class="method-start">118323 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SelectCountry</span>
-                <span class="method-start">21274 ms</span>
+                <span class="method-start">120339 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=SelectCountry status=SUCCESS method=testDropDownSearchDemoPage.SelectCountry()[pri:...)</span>
-                <span class="method-start">23057 ms</span>
+                <span class="method-start">123280 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testDropDownSearchDemoPage.SelectFile())</span>
-                <span class="method-start">23386 ms</span>
+                <span class="method-start">123447 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SelectFile</span>
-                <span class="method-start">25786 ms</span>
+                <span class="method-start">125420 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=SelectFile status=SUCCESS method=testDropDownSearchDemoPage.SelectFile()[pri:0, ins...)</span>
-                <span class="method-start">27050 ms</span>
+                <span class="method-start">128384 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testDropDownSearchDemoPage.SelectState())</span>
-                <span class="method-start">27584 ms</span>
+                <span class="method-start">128549 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SelectState</span>
-                <span class="method-start">29941 ms</span>
+                <span class="method-start">130501 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=SelectState status=SUCCESS method=testDropDownSearchDemoPage.SelectState()[pri:0, i...)</span>
-                <span class="method-start">31625 ms</span>
+                <span class="method-start">133295 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.testCheckboxPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testCheckboxPage.DisableCheckBoxDemo())</span>
-                <span class="method-start">32012 ms</span>
+                <span class="method-start">133451 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DisableCheckBoxDemo</span>
-                <span class="method-start">34180 ms</span>
+                <span class="method-start">135383 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=DisableCheckBoxDemo status=SUCCESS method=testCheckboxPage.DisableCheckBoxDemo()[pr...)</span>
-                <span class="method-start">36260 ms</span>
+                <span class="method-start">136933 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testCheckboxPage.MutlipleCheckBox())</span>
-                <span class="method-start">36716 ms</span>
+                <span class="method-start">137051 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">MutlipleCheckBox</span>
-                <span class="method-start">39183 ms</span>
+                <span class="method-start">139103 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=MutlipleCheckBox status=SUCCESS method=testCheckboxPage.MutlipleCheckBox()[pri:0, i...)</span>
-                <span class="method-start">40760 ms</span>
+                <span class="method-start">140003 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testCases.testCheckboxPage.SingleCheckBoxDemo())</span>
-                <span class="method-start">41274 ms</span>
+                <span class="method-start">140108 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SingleCheckBoxDemo</span>
-                <span class="method-start">43579 ms</span>
+                <span class="method-start">142058 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=SingleCheckBoxDemo status=SUCCESS method=testCheckboxPage.SingleCheckBoxDemo()[pri:...)</span>
-                <span class="method-start">44787 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.testDragAndDrop</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void testCases.testDragAndDrop.dragAndDropDemo1())</span>
-                <span class="method-start">45080 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">dragAndDropDemo1</span>
-                <span class="method-start">47335 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">testStatus([TestResult name=dragAndDropDemo1 status=SUCCESS method=testDragAndDrop.dragAndDropDemo1()[pri:0, in...)</span>
-                <span class="method-start">49724 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void testCases.testDragAndDrop.dragAndDropDemo2())</span>
-                <span class="method-start">50101 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">dragAndDropDemo2</span>
-                <span class="method-start">52679 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">testStatus([TestResult name=dragAndDropDemo2 status=SUCCESS method=testDragAndDrop.dragAndDropDemo2()[pri:0, in...)</span>
-                <span class="method-start">53715 ms</span>
+                <span class="method-start">142686 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -28,6 +28,19 @@ public class dynamicDataLoading {
 	@FindBy (xpath = "//h1[text()='Dynamic Data Loading']")
 	private WebElement titleDynamicDataLoadingPage;
 	
+	@FindBy (xpath = "//*[@id=\"loading\"]/text()[1]")
+	private WebElement firstName;
+	
+	
+	public String printDisplayedName1() {
+		return elemUtils.getTextFromElement(firstName, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+	
+	public String printDisplayedName2() {
+		return elemUtils.getTextFromElement(titleDynamicDataLoadingPage, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+	
+	
 	public boolean isTitleDisplayed() {
 		return elemUtils.displayStatusOfElement(titleDynamicDataLoadingPage, CommonData.EXPLICIT_WAIT_BASIC_TIME);
 	}

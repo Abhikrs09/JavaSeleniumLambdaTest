@@ -2,11 +2,13 @@ package utilities;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Keys;
 
 public class elementsUtils {
 	
@@ -45,6 +47,12 @@ public void typeTextIntoElement(WebElement element,String textToBeTyped,long dur
 		webElement.sendKeys(textToBeTyped);
 		
 	}
+
+public void typeTextFromKeyBoard(WebElement element,Keys textToBeTyped,long durationInSeconds) {
+	WebElement webElement = WaitForElement(element,durationInSeconds);
+	webElement.click();
+	webElement.sendKeys(textToBeTyped);
+}
 
 
 public void clickOnElement(WebElement element,long durationInSeconds) {
@@ -103,6 +111,20 @@ public boolean isElementClicked(WebElement element,long durationInSeconds) {
 public static void scrollDown(WebDriver driver, int pixels) {
     JavascriptExecutor js = (JavascriptExecutor) driver;
     js.executeScript("window.scrollBy(0, " + pixels + ")");
+}
+
+public void acceptAlert() {
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    wait.until(ExpectedConditions.alertIsPresent());
+    Alert alert = driver.switchTo().alert();
+    alert.accept();
+}
+
+public String getAlertText() {
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    wait.until(ExpectedConditions.alertIsPresent());
+    Alert alert = driver.switchTo().alert();
+    return alert.getText();
 }
 
 

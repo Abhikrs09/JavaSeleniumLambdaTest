@@ -23,7 +23,6 @@ public class testDynamicDataLoading extends basePage{
 		
 		lhp.clickbtnDynamicDataLoading();
 		Assert.assertTrue(ddl.isTitleDisplayed());
-		
 		ddl.clickbtnGetRandomData();
 		Assert.assertTrue(ddl.isImageDisplayed());
 	}

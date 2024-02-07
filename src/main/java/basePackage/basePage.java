@@ -59,7 +59,6 @@ public class basePage {
         }
 
         driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(ReadingPropertiesFile.getProperty("url"));
         extent_report = ExtentManager.getInstance("Reports//Extent_demo.html");
         extent_test = extent_report.startTest(method.getName());

@@ -23,6 +23,9 @@ public class lambdaHomePage {
 	@FindBy(xpath = "//a[contains(text(),'Bootstrap List Box')]")
 	private WebElement btnBootstrap;
 	
+	@FindBy(xpath= "//a[contains(text(),'Key Press')]")
+	private WebElement btnKeyPress;
+	
 	@FindBy (xpath ="//a[contains(text(),'Window Popup Modal')]")
 	private WebElement btnWindowsHandel;
 	
@@ -52,6 +55,22 @@ public class lambdaHomePage {
 	
 	@FindBy (xpath = "//a[contains(text(),'Dynamic Data Loading')]")
 	private WebElement btnDynamicDataLoading;
+	
+	@FindBy(xpath = "//a[contains(text(),'Javascript Alerts')]")
+	private WebElement btnJavaScriptAlert;
+	
+	
+	
+	public void clickbtnKeyPress() {
+		elemUtils.clickOnElement(btnKeyPress, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+		}
+	
+	
+	
+	public void clickbtnJavaScriptAlert() {
+		elemUtils.clickOnElement(btnJavaScriptAlert, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+	
 	
 	public void clickbtnDynamicDataLoading() {
 		elemUtils.clickOnElement(btnDynamicDataLoading, CommonData.EXPLICIT_WAIT_BASIC_TIME);

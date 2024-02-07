@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.testHandelWindowsPage">
+      <class name="testCases.testDatePickerPage">
         <methods>
           <include name="testStatus"/>
-          <include name="handelTwitterPage"/>
+          <include name="printCurrentdate"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.testHandelWindowsPage -->
+      </class> <!-- testCases.testDatePickerPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

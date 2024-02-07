@@ -1,5 +1,8 @@
+testCases\testDatePickerPage.class
 testCases\testSliderDemoPage.class
-testCases\testCheckboxPage.class
-testCases\testHandelWindowsPage.class
 testCases\testDragAndDrop.class
 testCases\testDropDownSearchDemoPage.class
+testCases\testJavaScriptAlertBoxPage.class
+testCases\testCheckboxPage.class
+testCases\testHandelWindowsPage.class
+testCases\testDynamicDataLoading.class

@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import basePackage.basePage;
+import pages.datePickerPage;
 import pages.dragAndDropPage;
 import pages.lambdaHomePage;
 import utilities.elementsUtils;
@@ -55,5 +56,8 @@ public class testDragAndDrop extends basePage {
 		Assert.assertTrue(dad.isDisplayeddraggedorNot());
 		
 	}
+	
+	
+	
 	
 }

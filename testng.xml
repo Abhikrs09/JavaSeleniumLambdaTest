@@ -3,15 +3,20 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCases.testDragAndDrop"/>
-      <class name="basePackage.basePage"/>
-      <class name="testCases.testHandelWindowsPage"/>
-     
-      <class name="testCases.testDatePickerPage"/>
-      <class name="testCases.testDynamicDataLoading"/>
-      <class name="testCases.testSliderDemoPage"/>
-      <class name="testCases.testDropDownSearchDemoPage"/>
-      <class name="testCases.testCheckboxPage"/>
+		<class name="basePackage.basePage"/>
+		<class name="testCases.testCheckboxPage"/>
+      	<class name="testCases.testDragAndDrop"/>
+      	<class name="testCases.testDropDownSearchDemoPage"/>
+      	<class name="testCases.testDynamicDataLoading"/>
+      	<class name="testCases.testHandelWindowsPage"/>
+      	<class name="testCases.testSliderDemoPage"/>
+      	<class name="testCases.testDatePickerPage"/>
+      	<class name="testCases.testJavaScriptAlertBoxPage.java"/>
+      	<class name="testCases.testKeyPressFromKeyBoard.java"/>
+      
+      
+      
+      
       
     </classes>
   </test> <!-- Test -->

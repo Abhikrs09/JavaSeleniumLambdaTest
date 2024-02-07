@@ -1,2 +1,55 @@
-2023-10-28 21:08:07.451 [main] INFO  basePackage.basePage - Test case got passed
-2023-10-28 21:08:07.467 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:43:04.059 [main] INFO  testCases.testCheckboxPage - ----- Testing the functionality of testDragAndDrop1 -----
+2024-02-07 13:43:06.901 [main] INFO  testCases.testCheckboxPage - ----- Asserting that all the drop down are displayed or not -----
+2024-02-07 13:43:07.668 [main] INFO  testCases.testCheckboxPage - ----- Verifying that the drag and drop operation happens correctly or not -----
+2024-02-07 13:43:07.824 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:43:07.824 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:43:13.353 [main] INFO  testCases.testCheckboxPage - ----- Testing the functionality of testDragAndDrop2 -----
+2024-02-07 13:43:17.132 [main] INFO  testCases.testCheckboxPage - ----- Verifying that the drag and drop operation happens correctly or not -----
+2024-02-07 13:43:17.209 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:43:17.210 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:43:22.865 [main] INFO  testCases.testHandelWindowsPage - ----- Verifying the functionality of testSlider -----
+2024-02-07 13:43:25.339 [main] INFO  testCases.testHandelWindowsPage - ----- Switch to the new Twitter popup window -----
+2024-02-07 13:43:26.192 [main] INFO  testCases.testHandelWindowsPage - ----- Changing the driver  and maximising the window -----
+2024-02-07 13:43:28.142 [main] INFO  testCases.testHandelWindowsPage - ----- Perform the Twitter login action -----
+2024-02-07 13:44:42.634 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:44:42.636 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:44:46.214 [main] INFO  testCases.testSliderDemoPage - ----- Verifying the functionality of testSlider -----
+2024-02-07 13:44:48.858 [main] INFO  pages.sliderDemoPage - Initial loc: (391, 303)
+2024-02-07 13:44:48.895 [main] INFO  pages.sliderDemoPage - Initial value: 20
+2024-02-07 13:44:49.372 [main] INFO  pages.sliderDemoPage - Updated value: 34
+2024-02-07 13:44:49.376 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:44:49.376 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:44:51.574 [main] INFO  testCases.testCheckboxPage - ----- Verifying the SelectCountry test -----
+2024-02-07 13:44:51.576 [main] INFO  testCases.testCheckboxPage - ----- Reading country from properties file -----
+2024-02-07 13:44:54.414 [main] INFO  testCases.testCheckboxPage - ----- Verifying the input and output country is matching or not -----
+2024-02-07 13:44:54.513 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:44:54.513 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:44:56.655 [main] INFO  testCases.testCheckboxPage - ----- Verifying the SelectFile test -----
+2024-02-07 13:44:59.329 [main] INFO  testCases.testCheckboxPage - ----- Verifying DropDown titile has been displayed or not  -----
+2024-02-07 13:44:59.415 [main] INFO  testCases.testCheckboxPage - ----- Select the file  -----
+2024-02-07 13:44:59.616 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:44:59.617 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:45:01.735 [main] INFO  testCases.testCheckboxPage - ----- Verifying the SelectState test -----
+2024-02-07 13:45:04.527 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:45:04.527 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:45:06.617 [main] INFO  testCases.testCheckboxPage - ----- Verifying the functionality of DisableCheckBoxDemo -----
+2024-02-07 13:45:06.620 [main] INFO  testCases.testCheckboxPage - ----- Following all the steps to go to the checkbox page -----
+2024-02-07 13:45:07.850 [main] INFO  testCases.testCheckboxPage - ----- Checking the title of Checkbox_button_1 is Enabled  or not -----
+2024-02-07 13:45:07.903 [main] INFO  testCases.testCheckboxPage - ----- Checking the title of Checkbox_button_3 is Enabled or not -----
+2024-02-07 13:45:07.954 [main] INFO  testCases.testCheckboxPage - ----- Checking the title of Checkbox_button_4 is Enabled or not -----
+2024-02-07 13:45:08.041 [main] INFO  testCases.testCheckboxPage - ----- Checking the title of Checkbox_button_2 is Selected or not -----
+2024-02-07 13:45:08.166 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:45:08.166 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:45:10.338 [main] INFO  testCases.testCheckboxPage - ----- Verifying the functionality of MutlipleCheckBox -----
+2024-02-07 13:45:10.339 [main] INFO  testCases.testCheckboxPage - ----- Following all the steps to go to the checkbox page -----
+2024-02-07 13:45:10.807 [main] INFO  testCases.testCheckboxPage - ----- Asserting that btnCheckAllOpt2 is selected or not -----
+2024-02-07 13:45:10.963 [main] INFO  testCases.testCheckboxPage - ----- Asserting that btnCheckAllOpt2 is selected or not after clicking select All Button -----
+2024-02-07 13:45:11.072 [main] INFO  testCases.testCheckboxPage - ----- clicking select all button -----
+2024-02-07 13:45:11.173 [main] INFO  testCases.testCheckboxPage - ----- Asserting that btnCheckAllOpt2 is selected or not after clicking select All Button -----
+2024-02-07 13:45:11.235 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:45:11.236 [main] INFO  basePackage.basePage - __________________________________________________________________________________
+2024-02-07 13:45:13.293 [main] INFO  testCases.testCheckboxPage - ----- Verifying the functionality of SingleCheckBoxDemo -----
+2024-02-07 13:45:13.758 [main] INFO  testCases.testCheckboxPage - ----- Checking the tilte of Checkbox page is displayed or not -----
+2024-02-07 13:45:13.804 [main] INFO  testCases.testCheckboxPage - ----- Checking the tilte of Checkbox is displayed or not -----
+2024-02-07 13:45:13.918 [main] INFO  basePackage.basePage - Test case got passed
+2024-02-07 13:45:13.919 [main] INFO  basePackage.basePage - __________________________________________________________________________________

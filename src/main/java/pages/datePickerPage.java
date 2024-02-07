@@ -32,6 +32,14 @@ public class datePickerPage {
 	@FindBy (xpath = "//th[text()='October 2023']")
 	private WebElement currDate;
 	
+	@FindBy (xpath = "(//th[@class='next'])[1]")
+	private WebElement dateRangeUp;
+	
+	@FindBy (xpath = "(//th[@class='prev'])[1]")
+	private WebElement dateRangeDown;
+	
+	@FindBy (xpath = "(//th[@class='datepicker-switch'])[1]")
+	private WebElement monthYear;
 	
 	
 	public void clickdateStart() {
@@ -46,6 +54,9 @@ public class datePickerPage {
 		return elemUtils.displayStatusOfElement(titleDatePickerpage, CommonData.EXPLICIT_WAIT_BASIC_TIME);
 	}
 	
+	public String printCurrentMonthYear() {
+		return elemUtils.getTextFromElement(monthYear, CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
 	
 	
 }
